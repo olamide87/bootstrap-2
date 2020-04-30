@@ -4,12 +4,30 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>BootStrap</title>
-  <link rel="stylesheet" href="main.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <!-- <link rel="stylesheet" href="./main.css"> -->
 </head>
 <body>
-  <h1>Pies</h1>
+    <h1 class="">Ducks</h1>
 
-
+    <div class="btn-group" role="group" aria-label="Basic example">
+      <button id="small" data-filter="size" type="button" class="btn btn-danger">Small</button>
+      <button id="medium" data-filter="size" type="button" class="btn btn-success">Medium</button>
+      <button id="large" data-filter="size" type="button" class="btn btn-warning">Large</button>
+    </div>
+  
+    <div class="btn-group" role="group" aria-label="Basic example">
+      <button id="male" data-filter="gender" type="button" class="btn btn-outline-secondary">Male</button>
+      <button id="female" data-filter="gender" type="button" class="btn btn-outline-info">Female</button>
+    </div>
+  
+  
+    <button id="rubber" data-filter="isRubber" type="button" class="btn btn-dark btn-lg">Rubber?</button>
+  
+    <button id="all" type="button" class="btn btn-light btn-lg">Reset</button>
+  
+  
+<div id="duck-cards"></div>
 
   <script src="main.js"></script>
 </body>
